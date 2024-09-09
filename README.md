@@ -1,5 +1,1 @@
 To remove the interference of strong background noise and improve the accuracy of detection, we designed a soft thresholding function and used an attention mechanism to build a deep residual shrinkage network (DRSN) for seismic event detection from low SNR seismic records. In this network, a soft thresholding function is inserted into the deep network structure as a nonlinear transform layer to effectively filter the impact of noise-related features. An attention mechanism, together with an adaptive slope block (ASB), is incorporated to automatically obtain the optimal threshold for denoising seismic signals and process different signals and different levels of noise to the best effect.
-
-![image](https://github.com/user-attachments/assets/f2317634-8870-432b-95f2-18341ac3f03d)
-
-Structure of the DRSN. Conv is the convolutional layer; K is the number of convolution kernels; “/2” means that the moving step of the convolution kernel is 2; and C, W, and 1 are the number of channels, width, and height of the feature map, respectively.
